@@ -136,7 +136,5 @@ if __name__ == "__main__":
     behavior_model_path = "../Models/behavior_detection.h5"
     final_project.load_models(yolo_model_path=yolo_model_path,behavior_model_path=behavior_model_path)
     #final_project.read_video(video_path="../Media/n10.mp4")
-    #final_project.read_video(video_path="../Media/a42.mp4")
-    final_project.read_video(video_path="../Media/a26.mp4")
-    final_project.read_video(video_path="../Media/n113.mp4")
-    #final_project.read_video(video_path="../Media/final_test.mp4")
+    #final_project.read_video(video_path="../Media/test1_down_3act_3n.mp4")
+    final_project.read_video(video_path="../Media/test11_down_3act_3a_fence.mp4")
