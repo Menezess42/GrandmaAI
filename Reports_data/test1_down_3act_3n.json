@@ -1,1 +1,487 @@
-{"video": "test1_down_3act_3n", "frame_count": 350, "track_data": {"1": {"id": 1, "1": 21, "0": 180, "inFrame_count": 350, "count_slideWindow_pass": 201}, "2": {"id": 2, "1": 52, "0": 260, "inFrame_count": 322, "count_slideWindow_pass": 312}, "3": {"id": 3, "1": 30, "0": 241, "inFrame_count": 281, "count_slideWindow_pass": 271}, "4": {"id": 4, "1": 33, "0": 83, "inFrame_count": 126, "count_slideWindow_pass": 116}}}
+{
+    "video": "test1_down_3act_3n",
+    "frame_count": 350,
+    "track_data": {
+        "1": {
+            "id": 1,
+            "1": 21,
+            "0": 180,
+            "inFrame_count": 350,
+            "count_slideWindow_pass": 201,
+            "moda_behavior": {
+                "SlideWindow_10": {
+                    "slideWindow": 10,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_20": {
+                    "slideWindow": 20,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_30": {
+                    "slideWindow": 30,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_40": {
+                    "slideWindow": 40,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_50": {
+                    "slideWindow": 50,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_60": {
+                    "slideWindow": 60,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_70": {
+                    "slideWindow": 70,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_80": {
+                    "slideWindow": 80,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_90": {
+                    "slideWindow": 90,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_100": {
+                    "slideWindow": 100,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_110": {
+                    "slideWindow": 110,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_120": {
+                    "slideWindow": 120,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_130": {
+                    "slideWindow": 130,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_140": {
+                    "slideWindow": 140,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_150": {
+                    "slideWindow": 150,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_160": {
+                    "slideWindow": 160,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_170": {
+                    "slideWindow": 170,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_180": {
+                    "slideWindow": 180,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_190": {
+                    "slideWindow": 190,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_200": {
+                    "slideWindow": 200,
+                    "1": 0,
+                    "0": 1
+                }
+            }
+        },
+        "2": {
+            "id": 2,
+            "1": 52,
+            "0": 260,
+            "inFrame_count": 322,
+            "count_slideWindow_pass": 312,
+            "moda_behavior": {
+                "SlideWindow_10": {
+                    "slideWindow": 10,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_20": {
+                    "slideWindow": 20,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_30": {
+                    "slideWindow": 30,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_40": {
+                    "slideWindow": 40,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_50": {
+                    "slideWindow": 50,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_60": {
+                    "slideWindow": 60,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_70": {
+                    "slideWindow": 70,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_80": {
+                    "slideWindow": 80,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_90": {
+                    "slideWindow": 90,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_100": {
+                    "slideWindow": 100,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_110": {
+                    "slideWindow": 110,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_120": {
+                    "slideWindow": 120,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_130": {
+                    "slideWindow": 130,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_140": {
+                    "slideWindow": 140,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_150": {
+                    "slideWindow": 150,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_160": {
+                    "slideWindow": 160,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_170": {
+                    "slideWindow": 170,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_180": {
+                    "slideWindow": 180,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_190": {
+                    "slideWindow": 190,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_200": {
+                    "slideWindow": 200,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_210": {
+                    "slideWindow": 210,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_220": {
+                    "slideWindow": 220,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_230": {
+                    "slideWindow": 230,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_240": {
+                    "slideWindow": 240,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_250": {
+                    "slideWindow": 250,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_260": {
+                    "slideWindow": 260,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_270": {
+                    "slideWindow": 270,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_280": {
+                    "slideWindow": 280,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_290": {
+                    "slideWindow": 290,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_300": {
+                    "slideWindow": 300,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_310": {
+                    "slideWindow": 310,
+                    "1": 0,
+                    "0": 1
+                }
+            }
+        },
+        "3": {
+            "id": 3,
+            "1": 30,
+            "0": 241,
+            "inFrame_count": 281,
+            "count_slideWindow_pass": 271,
+            "moda_behavior": {
+                "SlideWindow_10": {
+                    "slideWindow": 10,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_20": {
+                    "slideWindow": 20,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_30": {
+                    "slideWindow": 30,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_40": {
+                    "slideWindow": 40,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_50": {
+                    "slideWindow": 50,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_60": {
+                    "slideWindow": 60,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_70": {
+                    "slideWindow": 70,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_80": {
+                    "slideWindow": 80,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_90": {
+                    "slideWindow": 90,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_100": {
+                    "slideWindow": 100,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_110": {
+                    "slideWindow": 110,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_120": {
+                    "slideWindow": 120,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_130": {
+                    "slideWindow": 130,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_140": {
+                    "slideWindow": 140,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_150": {
+                    "slideWindow": 150,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_160": {
+                    "slideWindow": 160,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_170": {
+                    "slideWindow": 170,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_180": {
+                    "slideWindow": 180,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_190": {
+                    "slideWindow": 190,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_200": {
+                    "slideWindow": 200,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_210": {
+                    "slideWindow": 210,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_220": {
+                    "slideWindow": 220,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_230": {
+                    "slideWindow": 230,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_240": {
+                    "slideWindow": 240,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_250": {
+                    "slideWindow": 250,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_260": {
+                    "slideWindow": 260,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_270": {
+                    "slideWindow": 270,
+                    "1": 0,
+                    "0": 1
+                }
+            }
+        },
+        "4": {
+            "id": 4,
+            "1": 33,
+            "0": 83,
+            "inFrame_count": 126,
+            "count_slideWindow_pass": 116,
+            "moda_behavior": {
+                "SlideWindow_10": {
+                    "slideWindow": 10,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_20": {
+                    "slideWindow": 20,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_30": {
+                    "slideWindow": 30,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_40": {
+                    "slideWindow": 40,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_50": {
+                    "slideWindow": 50,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_60": {
+                    "slideWindow": 60,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_70": {
+                    "slideWindow": 70,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_80": {
+                    "slideWindow": 80,
+                    "1": 0,
+                    "0": 1
+                },
+                "SlideWindow_90": {
+                    "slideWindow": 90,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_100": {
+                    "slideWindow": 100,
+                    "1": 1,
+                    "0": 0
+                },
+                "SlideWindow_110": {
+                    "slideWindow": 110,
+                    "1": 1,
+                    "0": 0
+                }
+            }
+        }
+    }
+}
