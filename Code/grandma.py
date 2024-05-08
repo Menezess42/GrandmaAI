@@ -17,9 +17,9 @@ class Grandma:
     def __init__(self):
         self.track_key = defaultdict(lambda: [])
         self.track_box = defaultdict(lambda: [])
-        self.track_behavior = defaultdict(lambda: {"id":0,"1":0,"0":0,"inFrame_count": 0,"count_slideWindow_pass": 0, "moda_behavior":{}})
+        self.track_behavior = defaultdict(lambda: {"id":0,"Abnormal":0,"Normal":0,"inFrame_count": 0,"count_slideWindow_pass": 0, "moda_behavior":{}})
         self.count_frames = 0
-        #self.person = defaultdict(lambda: {"id":0,"1":0,"0":0})
+        self.person = defaultdict(lambda: {"id":0,"Abnormal":0,"Normal":0})
         print("Load project")
 
     def rest_not_0(valor):
@@ -93,8 +93,10 @@ class Grandma:
             track_behavior["inFrame_count"] +=1
             keypoints = self.track_key[id]
             window_count+=f" |{track_behavior['id']}: {track_behavior['count_slideWindow_pass']}"
-            abnormal_b+=f" |{track_behavior['id']}: {track_behavior['1']}"
-            normal_b+=f" |{track_behavior['id']}: {track_behavior['0']}"
+            #abnormal_b+=f" |{track_behavior['id']}: {track_behavior['Abnormal']}"
+            #normal_b+=f" |{track_behavior['id']}: {track_behavior['Normal']}"
+            abnormal_b+=f" |{person['id']}: {person['Abnormal']}"
+            normal_b+=f" |{person['id']}: {person['Normal']}"
             if len(keypoints) == 10:
                 track_behavior["count_slideWindow_pass"]+=1
                 array_vetor_de_vetores = np.array(keypoints)
@@ -109,14 +111,14 @@ class Grandma:
 
                 if binary_prediction==1:
                     bx = self.track_box[id]
-                    track_behavior["1"]+=1
-                    person["1"]+=1
+                    track_behavior["Abnormal"]+=1
+                    person["Abnormal"]+=1
                     image = self.draw_text(image=image,text="ABNORMAL",position=(bx[0],bx[1]-42))
 
                 elif binary_prediction==0:
                     bx = self.track_box[id]
-                    track_behavior["0"]+=1
-                    person["0"]+=1
+                    track_behavior["Normal"]+=1
+                    person["Normal"]+=1
                     image = self.draw_text(image=image,text="NORMAL",position=(bx[0],bx[1]-42))
 
                 if track_behavior["count_slideWindow_pass"]>0 and track_behavior['count_slideWindow_pass']%10==0:
@@ -124,18 +126,18 @@ class Grandma:
                     frame_key = f"SlideWindow_{frame}"
                     track_behavior["moda_behavior"][frame_key]={
                         "slideWindow":track_behavior["count_slideWindow_pass"],
-                        "1": 0,
-                        "0": 0,
+                        "Abnormal": 0,
+                        "Normal": 0,
                     }
-                    if person["0"]>person["1"]:
+                    if person["Normal"]>person["Abnormal"]:
                         #track_behavior["moda_behavior"]["0"]+=1
-                        track_behavior["moda_behavior"][frame_key]["0"]=1
-                    elif person["1"]>=person["0"]:
+                        track_behavior["moda_behavior"][frame_key]["Normal"]=1
+                    elif person["Abnormal"]>=person["Normal"]:
                         #track_behavior["moda_behavior"]["1"]+=1
-                        track_behavior["moda_behavior"][frame_key]["1"]=1
+                        track_behavior["moda_behavior"][frame_key]["Abnormal"]=1
 
-                    person["0"]=0
-                    person["1"]=0
+                    person["Normal"]=0
+                    person["Abnormal"]=0
 
                 self.track_key[id].pop(0)
         
@@ -185,7 +187,7 @@ class Grandma:
             "frame_count": self.count_frames,
             "track_data": self.track_behavior
         }
-        flag = True 
+        flag = False
         if flag:
             json_file_path = os.path.join("../Reports_data/",f"{video_name}.json")
             with open(json_file_path, "w") as json_file:
@@ -215,7 +217,9 @@ if __name__ == "__main__":
         #final_project.read_video(video_path="path/to/the/video")
         final_project.read_video(video_path=video_path)
 
-    more_ = True
+    #for i in rage(3):
+    run(video_path="../Media/test5_down_3act_1a_fence.mp4")
+    more_ = False
     if more_:
         # TEST 1
         #for i in rage(3):
@@ -224,8 +228,6 @@ if __name__ == "__main__":
         #for i in rage(3):
         run(video_path="../Media/test4_up_3act_3n.mp4")
         # TEST 3
-        #for i in rage(3):
-        run(video_path="../Media/test5_down_3act_1a_fence.mp4")
         # TEST 4
         #for i in rage(3):
         run(video_path="../Media/test7_up_3act_1a_gate.mp4")
