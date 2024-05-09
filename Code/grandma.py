@@ -217,38 +217,38 @@ if __name__ == "__main__":
         #final_project.read_video(video_path="path/to/the/video")
         final_project.read_video(video_path=video_path)
 
+    # TEST 11
     #for i in rage(3):
-    run(video_path="../Media/test5_down_3act_1a_fence.mp4")
+    run(video_path="../Media/test15_up_3act_3a_fence.mp4")
     more_ = False
     if more_:
-        # TEST 1
-        #for i in rage(3):
-        run(video_path="../Media/test1_down_3act_3n.mp4")
-        # TEST 2
-        #for i in rage(3):
-        run(video_path="../Media/test4_up_3act_3n.mp4")
-        # TEST 3
-        # TEST 4
-        #for i in rage(3):
-        run(video_path="../Media/test7_up_3act_1a_gate.mp4")
-        # TEST 5
-        #for i in rage(3):
-        run(video_path="../Media/test8_down_3act_2a_fence.mp4")
-        # TEST 6
-        #for i in rage(3):
-        run(video_path="../Media/test9_up_3act_2a_gate.mp4")
-        # TEST 7
-        #for i in rage(3):
-        run(video_path="../Media/test11_down_3act_3a_fence.mp4")
-        # TEST 8
-        #for i in rage(3):
-        run(video_path="../Media/test12_up_3act_3a_gate.mp4")
-        # TEST 9
-        #for i in rage(3):
-        run(video_path="../Media/test13_up_3act_1a_fence.mp4")
         # TEST 10
         #for i in rage(3):
         run(video_path="../Media/test14_up_3act_2a_fence.mp4")
-        # TEST 11
+        # TEST 9
         #for i in rage(3):
-        run(video_path="../Media/test15_up_3act_3a_fence.mp4")
+        run(video_path="../Media/test13_up_3act_1a_fence.mp4")
+        # TEST 8
+        #for i in rage(3):
+        run(video_path="../Media/test12_up_3act_3a_gate.mp4")
+        # TET 7
+        #for i in rage(3):
+        run(video_path="../Media/test11_down_3act_3a_fence.mp4")
+        # TEST 6
+        #for i in rage(3):
+        run(video_path="../Media/test9_up_3act_2a_gate.mp4")
+        # TEST 5
+        #for i in rage(3):
+        run(video_path="../Media/test8_down_3act_2a_fence.mp4")
+        # TEST 4
+        #for i in rage(3):
+        run(video_path="../Media/test7_up_3act_1a_gate.mp4")
+        # TEST 3
+        #for i in rage(3):
+        run(video_path="../Media/test5_down_3act_1a_fence.mp4")
+        # TEST 2
+        #for i in rage(3):
+        run(video_path="../Media/test4_up_3act_3n.mp4")
+        # TEST 1
+        #for i in rage(3):
+        run(video_path="../Media/test1_down_3act_3n.mp4")
