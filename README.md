@@ -40,10 +40,10 @@ But obtaining a dataset from prison security cameras would be a complicated and 
   </p>
 
 - <h3>Extracting data</h3>
-  After creating the dataset of videos separated into Normal and Abnormal folders, I decided to create a numerical dataset, which is the job of the <a href="">make_dataset.py</a> code. This code is responsible for reading a video frame by frame, passing each frame through the YOLOv8-Pose AI which identifies the keypoints of the people in the frame, saving the result of each frame to a json file inside a folder. For example, reading the abnormal_1 video will create the directory ./Abnormal/abnormal_1/frame_x.json where x is the frame number.
+  After creating the dataset of videos separated into Normal and Abnormal folders, I decided to create a numerical dataset, which is the job of the <a href="https://github.com/Menezess42/GrandmaAI/blob/main/Code/make_dataset.py">make_dataset.py</a> code. This code is responsible for reading a video frame by frame, passing each frame through the YOLOv8-Pose AI which identifies the keypoints of the people in the frame, saving the result of each frame to a json file inside a folder. For example, reading the abnormal_1 video will create the directory ./Abnormal/abnormal_1/frame_x.json where x is the frame number.
 
 - <h3>Creating and training the detection AI</h3>
-  The machine learning model is a MLP with 3 hidden layers and 1 output layer, its architecture is tapered, the first layer has 512 neurons, the second has 256, and the third has 128. The output layer has 1 binary result neuron, where 1 indicates Abnormal and 0 indicates normal. There are dropout and batch normalization between the hidden layers, the training code is <a href="">ml_training.py</a>.
+  The machine learning model is a MLP with 3 hidden layers and 1 output layer, its architecture is tapered, the first layer has 512 neurons, the second has 256, and the third has 128. The output layer has 1 binary result neuron, where 1 indicates Abnormal and 0 indicates normal. There are dropout and batch normalization between the hidden layers, the training code is <a href="https://github.com/Menezess42/GrandmaAI/blob/main/Code/ml_training.py">ml_training.py</a>.
 
   The input takes a vector of 340 positions. You might be wondering, but if YOLOv8-Pose returns 17 key points for each person, how is the input 340?
 
