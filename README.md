@@ -5,7 +5,6 @@
 <p>You can find a video demonstration <b href="https://www.youtube.com/shorts/ZmDJwb9250c">here</b></p>
 <hr/>
 </div>
-
 <h2>Descrição</h2>
   Projeto que utiliza visão computacional e inteligência artifical para detectar uma ou mais pessoas no video e identificar seu comportamento, caso o comportamento seja identificado como anormal, o sistema alerta.
 
