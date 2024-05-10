@@ -5,3 +5,5 @@
 <p>You can find a video demonstration <b href="https://www.youtube.com/shorts/ZmDJwb9250c">here</b></p>
 <hr/>
 </div>
+
+![GrandmAI_model](https://github.com/Menezess42/GrandmaAI/assets/67249275/43681e1d-ba2d-4ca9-adf3-0eada612ab35)
